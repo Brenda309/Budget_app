@@ -1,0 +1,19 @@
+<%= render @group %>
+
+<div class="group-show-btns">
+  <div>
+    <%= link_to "Edit Category", edit_group_path(@group), class:'edit' %>
+  </div>
+  <div>
+    <%= button_to "Destroy Category", @group, method: :delete, class:'log-in-2 red' %>
+  </div>
+</div>
+<div>
+  <h2 class='transaction-heading'>Transactions<h2>
+  <div class="card-list">
+    <%= render @group.settlements.order(created_at: :desc) %>
+  </div>
+  <div class="add-group">
+    <%= link_to "New Transaction", new_group_settlement_path(@group), class: "sign-up-2" %>
+  </div>
+</div>

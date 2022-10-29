@@ -1,0 +1,16 @@
+<div class="groups-container">
+<div id="groups">
+  <% if @groups.empty? %>
+      <p class="group__empty">There are no groups yet.</p>
+       <% else %>
+  <% @groups.each do |group| %>
+    <%= link_to group, class:'group-links' do %>
+      <%= render group %>
+       <% end %>
+    <% end %>
+  <% end %>
+</div>
+<div class="add-group">
+  <%= link_to "Add New Category", new_group_path, class:'sign-up-2' %>
+</div>
+</div>
