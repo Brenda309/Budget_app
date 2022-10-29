@@ -1,51 +1,78 @@
-# Expense Tracker
-A versatile budget application that allows a user to add expenses to a category and consequentially track expenses per category.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-![image](https://user-images.githubusercontent.com/59999191/195946026-0e4c162a-d580-47d6-b9af-33c752c1e645.png)![image](https://user-images.githubusercontent.com/59999191/195946356-4edabe12-0efe-4558-b145-4b488aedc43d.png)![image](https://user-images.githubusercontent.com/59999191/195946483-77fb0108-950f-4aff-9b09-7e38f93bccf0.png)
-
-
+# Recipe App
+The Recipe app keeps track of all your recipes, ingredients, and inventory. It allows the user to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what user is missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow to make them public so anyone can access them.
 
 
 ## Built With
-- Ruby
-- Ruby on rails
 
-## See Project 🌐
-<a href="https://frozen-atoll-99525.herokuapp.com/">Expense Tracker Live Demo</a>
+- Ruby On Rails (RoR)
+- PostegreSQL
+- Bootsrap
+- RSpec
+- Capybara
+- Devise
+- CanCanCan
+- Bullet
 
-## Demonstration Video
-<a href="https://drive.google.com/file/d/1vyjHmxMyO2qEgNlTB5S5qwbhC2lOJqg8/view?usp=sharing">Expense Tracker Tutorial</a>
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
 
 ## Getting Started
-You may setup the project on your local machine using the following steps:
+To get a local copy up and running follow these simple example steps.
 
-- Open the terminal
-- Get into the directory you want this folder to appear
-- Type 'git clone https://github.com/Draxeytina/ExpenseTracker.git'
-- Open index.html file and open it with live server in your preferred editor
 
-Optionally you can follow the link under see project above ☝️
+### Prerequisites
+Ruby 3.1.2 or newer
+Rails 7.0.4 or newer
+Git
+NPM
+PostgreSQL
+Modern web browser
 
-## Author 🖋️
-👤 Tinashe Timothy Murambinda
-* <a href="https://github.com/Draxeytina/">Github</a>
-* <a href="https://twitter.com/tinamura2">Twitter</a>
-* <a href="https://www.linkedin.com/in/timothy-tinashe-murambinda/">LinkedIn</a>
+### Setup
+  $ git clone https://github.com/Brenda309/recipe_app.git
+  $ cd recipe_app/
+### Install
 
-## Contributing
-You are welcome to make any contributions, issues, and feature requests!
+     bundle install
+     gem install rspec
+### Usage
+
+### Run project
+    Execute command
+
+    $ rails server
+
+Then browse http://localhost:3000
+
+## Authors
+
+👤 **Brenda Wihogora**
+
+- GitHub: [@Brenda309](https://github.com/Brenda309)
+- Twitter: [@BrendaWihogora](https://twitter.com/BrendaWihogora)
+- LinkedIn: [BrendaWihogora](https://linkedin.com/in/BrendaWihogora/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
-If you like this project please give a ⭐️!
+
+Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-I would like to acknowledge the following for making this a success:
-- My coding partners
-- The Microverse code reviewers
 
->Note
->> Original interface design by <a href="https://www.behance.net/gregoirevella">Gregoire Vella on Behance</a>
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
+This project is [MIT](./LICENSE.md) licensed.
 
-This project is [MIT](https://github.com/Draxeytina/ExpenseTracker/MIT.md) licensed.
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
