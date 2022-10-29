@@ -1,5 +1,5 @@
 class Group < ApplicationRecord
-   belongs_to :user
+  belongs_to :user
   has_many :settlements, dependent: :destroy
 
   validates :name, presence: true
@@ -10,6 +10,6 @@ class Group < ApplicationRecord
               message: 'image url is not a valid URL'
             }
   def total_amount
-   settlements.sum(:amount)
+    settlements.sum(:amount)
   end
 end
