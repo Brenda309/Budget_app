@@ -1,0 +1,16 @@
+<div class="form">
+  <%= form_with(model: group) do |form| %>
+      <div class="field">
+      <%= form.label :name, class: 'hidden' %>
+      <%= form.text_field :name, placeholder: "Name", class: "field__input" %>
+      </div>
+     <div>
+       <%= form.label :icon, class: 'hidden' %>
+      <%= form.text_field :icon, placeholder: "", class: "field__input" %>
+      </div>
+   
+     
+  <div>
+    <%= form.submit "Save", class:'sign-up-2' %>
+  </div>
+<% end %>

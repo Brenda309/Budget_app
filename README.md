@@ -1,24 +1,51 @@
-# README
+# Expense Tracker
+A versatile budget application that allows a user to add expenses to a category and consequentially track expenses per category.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![image](https://user-images.githubusercontent.com/59999191/195946026-0e4c162a-d580-47d6-b9af-33c752c1e645.png)![image](https://user-images.githubusercontent.com/59999191/195946356-4edabe12-0efe-4558-b145-4b488aedc43d.png)![image](https://user-images.githubusercontent.com/59999191/195946483-77fb0108-950f-4aff-9b09-7e38f93bccf0.png)
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+## Built With
+- Ruby
+- Ruby on rails
 
-* Database creation
+## See Project 🌐
+<a href="https://frozen-atoll-99525.herokuapp.com/">Expense Tracker Live Demo</a>
 
-* Database initialization
+## Demonstration Video
+<a href="https://drive.google.com/file/d/1vyjHmxMyO2qEgNlTB5S5qwbhC2lOJqg8/view?usp=sharing">Expense Tracker Tutorial</a>
 
-* How to run the test suite
+## Getting Started
+You may setup the project on your local machine using the following steps:
 
-* Services (job queues, cache servers, search engines, etc.)
+- Open the terminal
+- Get into the directory you want this folder to appear
+- Type 'git clone https://github.com/Draxeytina/ExpenseTracker.git'
+- Open index.html file and open it with live server in your preferred editor
 
-* Deployment instructions
+Optionally you can follow the link under see project above ☝️
 
-* ...
+## Author 🖋️
+👤 Tinashe Timothy Murambinda
+* <a href="https://github.com/Draxeytina/">Github</a>
+* <a href="https://twitter.com/tinamura2">Twitter</a>
+* <a href="https://www.linkedin.com/in/timothy-tinashe-murambinda/">LinkedIn</a>
+
+## Contributing
+You are welcome to make any contributions, issues, and feature requests!
+
+## Show your support
+If you like this project please give a ⭐️!
+
+## Acknowledgments
+I would like to acknowledge the following for making this a success:
+- My coding partners
+- The Microverse code reviewers
+
+>Note
+>> Original interface design by <a href="https://www.behance.net/gregoirevella">Gregoire Vella on Behance</a>
+
+## 📝 License
+
+This project is [MIT](https://github.com/Draxeytina/ExpenseTracker/MIT.md) licensed.

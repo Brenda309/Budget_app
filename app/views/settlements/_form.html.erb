@@ -1,0 +1,27 @@
+<%= form_with(model: [@group, @settlement]) do |form| %>
+  <% if settlement.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(settlement.errors.count, "error") %> prohibited this settlement from being saved:</h2>
+
+      <ul>
+        <% settlement.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <h2 class="signup-header">Category: <%= @group.name %></h2>
+
+  <div>
+    <%= form.text_field :name, placeholder: 'Transaction name' %>
+  </div>
+
+  <div>
+    <%= form.text_field :amount, placeholder: 'Amount', value:"#{@settlement.name == nil ? '' : @settlement.amount}" %>
+  </div>
+
+  <div class="add-group">
+    <%= form.submit "Save", class:'sign-up-2' %>
+  </div>
+<% end %>
