@@ -5,11 +5,11 @@ RSpec.describe User, type: :request do
   describe 'GET /index' do
     before { get groups_path }
 
-    it 'returns a 200 status code' do
+    it 'returns a success status code' do
       expect(response).to have_http_status(200)
     end
 
-    it 'renders the index template' do
+    it 'renders the index the page' do
       expect(response).to render_template('index')
     end
 

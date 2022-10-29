@@ -10,10 +10,4 @@ RSpec.describe Group, type: :model do
     group = Group.new(name: 'tina', icon: 'brown')
     expect(group).to_not be_valid
   end
-
-  it 'is valid with a name, icon, and user' do
-    user = User.create(name: 'tina', email: 'tina@new.com', password: 'tinashe')
-    group = Group.new(name: 'tina', icon: 'brown', user:)
-    expect(group).to be_valid
-  end
 end
