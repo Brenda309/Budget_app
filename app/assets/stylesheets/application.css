@@ -19,7 +19,6 @@
 
 hr {
   width: 90%;
-  color: $text;
   height: 0.5rem;
 }
 
@@ -32,7 +31,6 @@ footer {
   right: 0;
   bottom: 1rem;
   left: 0;
-  background-color: $secondary;
 }
 
 input {
@@ -50,7 +48,8 @@ form {
   gap: 10px;
 }
 
-a, button {
+a,
+button {
   text-decoration: none;
   cursor: pointer;
 }
@@ -78,20 +77,17 @@ img {
   justify-content: space-around;
   align-items: center;
   height: 50px;
-  background-color: $main;
   color: #fff;
   margin-bottom: 25px;
 }
 
 .iconify {
   color: #fff;
-  font-family: $fontFamily;
   font-weight: 300;
 }
 
 .welcome-text {
   display: flex;
-  color: $text;
   margin-top: 2rem;
   justify-content: center;
 }
@@ -107,7 +103,6 @@ img {
 .foot-note {
   display: flex;
   justify-content: center;
-  color: $text;
   font-size: xx-small;
   margin-top: 1rem;
 }
@@ -147,7 +142,6 @@ img {
   text-align: center;
   width: 92%;
   background-color: #fff;
-  color: $text;
   border: none;
   border-radius: 5px;
   padding: 10px 100px 10px 100px;
@@ -176,7 +170,6 @@ img {
   text-align: center;
   width: 92%;
   background-color: #fff;
-  color: $text;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -186,11 +179,9 @@ img {
   font-weight: 300;
 }
 
-
 .log-in-2 {
   text-align: center;
   width: 90%;
-  background-color: $main;
   color: white;
   border: none;
   border-radius: 5px;
@@ -205,7 +196,6 @@ img {
 .sign-up-2 {
   text-align: center;
   width: 90%;
-  background-color: $secondary;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -217,7 +207,6 @@ img {
 }
 
 .forgot-link {
-  font-family: $fontFamily;
   font-weight: 300;
   padding: 10px;
   margin: 20px 10px;
@@ -234,19 +223,11 @@ img {
 
 .group-wrap {
   display: flex;
-  background-color: white;
   border: 1px solid #f1f1f1;
   padding: 0.5rem;
   align-items: center;
   justify-content: space-between;
-  background-color: transparentize($main, 0.9);
   border-radius: 10px;
-
-  &:hover {
-    background-color: transparentize($secondary, 0.9);
-    cursor: pointer;
-    scale: 1.02;
-  }
 }
 
 .size {
@@ -280,18 +261,14 @@ img {
 
 .red {
   font-weight: 300;
-  &:hover {
-    background-color: #f00;
-    cursor: pointer;
   }
-}
+
 
 .edit {
   font-weight: 300;
   font-size: 1.2em;
   padding: 10px;
   margin: 10px 15px;
-  background-color: $main;
   color: #fff;
   border-radius: 5px;
   width: 90%;
@@ -314,11 +291,6 @@ img {
   width: 100%;
   gap: 1rem;
 
-  a {
-    text-decoration: none;
-    color: $text;
-    font-size: 1rem;
-  }
 }
 
 .settlement-card {
@@ -328,14 +300,8 @@ img {
   margin: 0 auto;
   width: 90%;
   padding: 1.25rem 1rem;
-  background-color: transparentize($main, 0.9);
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
-  
-  &:hover {
-    background-color: transparentize($secondary, 0.9);
-    cursor: pointer;
-  }
 }
 
 .select_icon {
@@ -346,7 +312,7 @@ img {
 
 .select_icon_label {
   font-size: 1.2rem;
-  color: $text;
+  color: text;
   margin: 1rem 1rem 2rem 0.7rem;
 }
 
@@ -360,11 +326,9 @@ img {
   align-items: center;
   height: 100vh;
   width: 100%;
-  font-family: $fontFamily;
-  background-color: transparentize($color: $main, $amount: 0.9);
-  
+}
+
   li {
-    text-decoration: none;
     list-style-type: none;
     text-align: center;
     width: 100%;
@@ -379,7 +343,6 @@ img {
     font-weight: 300;
     margin-bottom: 20px;
   }
-}
 
 .groups-container {
   display: flex;
