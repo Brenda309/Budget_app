@@ -19,7 +19,9 @@
 
 [Live Demo Link](https://budget-app-managing.herokuapp.com/)
 
+## run test
 
+rspec
 
 ## Live Demo (if available)
 
