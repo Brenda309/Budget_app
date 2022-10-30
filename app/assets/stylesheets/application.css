@@ -1,4 +1,5 @@
 @import 'font-awesome';
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +7,7 @@
 .home {
   display: flex;
   justify-content: space-around;
-   background-color:#3778c2
+  background-color: #3778c2;
 }
 
 .nav_bar {
@@ -44,7 +45,8 @@ footer {
   left: 0;
   background-color: #5fb523;
 }
-.foot-note{
+
+.foot-note {
   text-align: center;
 }
 
@@ -57,52 +59,50 @@ input {
 }
 
 form {
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
 }
-.title{
+
+.title {
   font-size: xx-large;
 }
 
-.quote{
-background-color: rgb(109, 133, 177);
-text-align: center;
+.quote {
+  background-color: rgb(109, 133, 177);
+  text-align: center;
 }
 
-
- .field {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 400px;
-    margin-bottom: 1rem;
- }
-    .field__input {
-      padding: 0.5rem;
-      font-size: 1.2rem;
-      border: none;
-      border-bottom: #000 solid 1px;
-      border-radius: 4px;
-      outline: none;
-    }
-
-   button.navbar-button{
-    color : white;
-    background-color: rgb(47, 79, 185);
-    border-radius: none;
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
 }
-   
 
-   a.navbar-button{
-    color : white;
-   padding-right:60px;
-   text-align: center;
-   font-size: xx-large;
+.field__input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: #000 solid 1px;
+  border-radius: 4px;
+  outline: none;
 }
-   
+
+button.navbar-button {
+  color: white;
+  background-color: rgb(47, 79, 185);
+}
+
+a.navbar-button {
+  color: white;
+  padding-right: 60px;
+  text-align: center;
+  font-size: xx-large;
+}
 
 .log-in {
   text-align: center;
@@ -133,11 +133,10 @@ text-align: center;
   font-weight: 300;
 }
 
-
 .log-in-2 {
   text-align: center;
   width: 90%;
-  background-color:  #3778c2;;
+  background-color: #3778c2;
   color: white;
   border: none;
   border-radius: 5px;
@@ -164,7 +163,7 @@ text-align: center;
 }
 
 .forgot-link {
-  font-family: proxima-nova, sans-serif;;
+  font-family: proxima-nova, sans-serif;
   font-weight: 300;
   padding: 10px;
   margin: 20px 10px;
@@ -172,11 +171,6 @@ text-align: center;
 
 .log-in-wrap {
   margin-left: 5px;
-}
-
-.field {
-  margin: 5px 10px;
-  padding: 5px;
 }
 
 .group-wrap {
@@ -220,10 +214,9 @@ text-align: center;
 
 .red {
   font-weight: 300;
-    background-color: #f00;
-    cursor: pointer;
-  }
-
+  background-color: #f00;
+  cursor: pointer;
+}
 
 .edit {
   font-weight: 300;
@@ -253,12 +246,12 @@ text-align: center;
   width: 100%;
   gap: 1rem;
 }
-  a .card-list {
-    text-decoration: none;
-    color: #434b54;
-    font-size: 1rem;
-  }
 
+a .card-list {
+  text-decoration: none;
+  color: #434b54;
+  font-size: 1rem;
+}
 
 .settlement-card {
   display: flex;
@@ -267,7 +260,7 @@ text-align: center;
   margin: 0 auto;
   width: 90%;
   padding: 1.25rem 1rem;
-  background-color:  #3778c2;
+  background-color: #3778c2;
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
@@ -280,7 +273,7 @@ text-align: center;
 
 .select_icon_label {
   font-size: 1.2rem;
-  color: #434b54;;
+  color: #434b54;
   margin: 1rem 1rem 2rem 0.7rem;
 }
 
@@ -294,26 +287,24 @@ text-align: center;
   align-items: center;
   height: 100vh;
   width: 100%;
-  font-family:#434b54;
+  font-family: proxima-nova, sans-serif;
 }
-  
-  li {
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
-    width: 100%;
-    border-color: #3778c2;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 10px;
-    font-size: 1.2em;
-    text-decoration: none;
-    font-weight: 300;
-    margin-bottom: 20px;
-  }
 
+li {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  border-color: #3778c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
 
 .groups-container {
   display: flex;

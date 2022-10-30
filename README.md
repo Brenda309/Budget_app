@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Recipe App
-The Recipe app keeps track of all your recipes, ingredients, and inventory. It allows the user to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what user is missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow to make them public so anyone can access them.
+# Bugdet App
+ app keeps track of all your recipes, ingredients, and inventory. It allows the user to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what user is missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow to make them public so anyone can access them.
 
 
 ## Built With
@@ -23,7 +23,7 @@ The Recipe app keeps track of all your recipes, ingredients, and inventory. It a
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://budget-app-managing.herokuapp.com/)
+[Video]https://www.loom.com/share/167c87d2612f4a18a40e038caceaca5b)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
@@ -38,7 +38,7 @@ PostgreSQL
 Modern web browser
 
 ### Setup
-  $ git clone https://github.com/Brenda309/recipe_app.git
+  $ git clone https://github.com/Brenda309/Budget_app.git
   $ cd recipe_app/
 ### Install
 
