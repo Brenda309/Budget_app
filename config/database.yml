@@ -16,6 +16,7 @@
 #
 default: &default
   adapter: postgresql
+  database: db/production.sqlite3
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
@@ -24,6 +25,7 @@ default: &default
 development:
   <<: *default
   database: Budget_app_development
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
