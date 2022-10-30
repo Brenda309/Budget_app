@@ -1,24 +1,27 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+@import 'font-awesome';
+* {
+  box-sizing: border-box;
+}
 
-@import url('https://fonts.googleapis.com/css?family=proxima-nova:thin,extra-light,light,bold,100,200,300,400,500,600,700,800');
+.home {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(47, 79, 185);
+}
 
-hr {
-  width: 90%;
-  height: 0.5rem;
+.nav_bar {
+  display: flex;
+  font-size: 20px;
+  margin: 10px;
+  list-style: none;
+}
+
+.navbar-button {
+  text-decoration: none;
+  color: #f8efef;
+  font-size: 20px;
+  padding: 10px;
+  list-style: none;
 }
 
 footer {
@@ -26,10 +29,14 @@ footer {
   display: block;
   align-items: center;
   justify-items: center;
-  height: 3rem;
+  height: 5rem;
   right: 0;
   bottom: 1rem;
   left: 0;
+  background-color: #5fb523;
+}
+.foot-note{
+  text-align: center;
 }
 
 input {
@@ -41,114 +48,53 @@ input {
 }
 
 form {
-  display: flex;
+display: flex;
   justify-content: center;
-  flex-direction: column;
-  gap: 10px;
-}
-
-a,
-button {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-}
-
-.icon {
-  scale: 1.5;
-}
-
-.signup-header {
-  display: flex;
-  justify-content: center;
-  color: rgb(67, 75, 84);
-  border-bottom: 1px solid rgb(241, 241, 241);
-  padding: 0.5rem;
-}
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  height: 50px;
-  color: #fff;
-  margin-bottom: 25px;
-}
-
-.iconify {
-  color: #fff;
-  font-weight: 300;
-}
-
-.welcome-text {
-  display: flex;
-  margin-top: 2rem;
-  justify-content: center;
-}
-
-.welcome-icon {
-  width: 98%;
-  height: 98%;
-  display: flex;
-  justify-content: center;
-  margin-top: 25%;
-}
-
-.foot-note {
-  display: flex;
-  justify-content: center;
-  font-size: xx-small;
-  margin-top: 1rem;
-}
-
-.log-buttons {
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40%;
+  width: 100%;
+}
+.title{
+  font-size: xx-large;
 }
 
-.links-li {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40%;
+.quote{
+background-color: rgb(109, 133, 177);
+text-align: center;
 }
 
-.log-in-3 {
-  text-align: center;
-  width: 92%;
-  background-color: #3778c2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 100px 10px 100px;
-  margin: 0 10px;
-  font-size: 1.2em;
-  text-decoration: none;
-  font-weight: 300;
-  margin-bottom: 20px;
-}
 
-.sign-up-3 {
-  text-align: center;
-  width: 92%;
-  background-color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 100px 10px 100px;
-  margin: 0 10px;
-  font-size: 1.2em;
-  text-decoration: none;
-  font-weight: 300;
+ .field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1rem;
+ }
+    .field__input {
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      border: none;
+      border-bottom: #000 solid 1px;
+      border-radius: 4px;
+      outline: none;
+    }
+
+   button.navbar-button{
+    color : white;
+    background-color: rgb(47, 79, 185);
+    border-radius: none;
 }
+   
+
+   a.navbar-button{
+    color : white;
+    background-color:#3778c2;
+   padding-right:60px;
+   text-align: center;
+   font-size: xx-large;
+}
+   
 
 .log-in {
   text-align: center;
@@ -169,6 +115,7 @@ img {
   text-align: center;
   width: 92%;
   background-color: #fff;
+  color: #434b54;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -178,9 +125,11 @@ img {
   font-weight: 300;
 }
 
+
 .log-in-2 {
   text-align: center;
   width: 90%;
+  background-color:  #3778c2;;
   color: white;
   border: none;
   border-radius: 5px;
@@ -195,6 +144,7 @@ img {
 .sign-up-2 {
   text-align: center;
   width: 90%;
+  background-color: #5fb523;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -206,6 +156,7 @@ img {
 }
 
 .forgot-link {
+  font-family: proxima-nova, sans-serif;;
   font-weight: 300;
   padding: 10px;
   margin: 20px 10px;
@@ -222,6 +173,7 @@ img {
 
 .group-wrap {
   display: flex;
+  background-color: white;
   border: 1px solid #f1f1f1;
   padding: 0.5rem;
   align-items: center;
@@ -260,13 +212,17 @@ img {
 
 .red {
   font-weight: 300;
-}
+    background-color: #f00;
+    cursor: pointer;
+  }
+
 
 .edit {
   font-weight: 300;
   font-size: 1.2em;
   padding: 10px;
   margin: 10px 15px;
+  background-color: rgb(47, 79, 185);
   color: #fff;
   border-radius: 5px;
   width: 90%;
@@ -289,6 +245,12 @@ img {
   width: 100%;
   gap: 1rem;
 }
+  a .card-list {
+    text-decoration: none;
+    color: #434b54;
+    font-size: 1rem;
+  }
+
 
 .settlement-card {
   display: flex;
@@ -297,6 +259,7 @@ img {
   margin: 0 auto;
   width: 90%;
   padding: 1.25rem 1rem;
+  background-color:  #3778c2;
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
@@ -309,6 +272,7 @@ img {
 
 .select_icon_label {
   font-size: 1.2rem;
+  color: #434b54;;
   margin: 1rem 1rem 2rem 0.7rem;
 }
 
@@ -322,23 +286,26 @@ img {
   align-items: center;
   height: 100vh;
   width: 100%;
+  font-family:#434b54;
 }
+  
+  li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    border-color: #3778c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
 
-li {
-  list-style-type: none;
-  text-align: center;
-  width: 100%;
-  border-color: #3778c2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px 10px;
-  font-size: 1.2em;
-  text-decoration: none;
-  font-weight: 300;
-  margin-bottom: 20px;
-}
 
 .groups-container {
   display: flex;
