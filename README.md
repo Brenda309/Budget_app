@@ -17,8 +17,13 @@ The Recipe app keeps track of all your recipes, ingredients, and inventory. It a
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://budget-app-managing.herokuapp.com/)
 
+
+
+## Live Demo (if available)
+
+[Live Demo Link](https://budget-app-managing.herokuapp.com/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.

@@ -6,7 +6,7 @@
 .home {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(47, 79, 185);
+   background-color:#3778c2
 }
 
 .nav_bar {
@@ -22,6 +22,15 @@
   font-size: 20px;
   padding: 10px;
   list-style: none;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.icon {
+  scale: 1.5;
 }
 
 footer {
@@ -89,7 +98,6 @@ text-align: center;
 
    a.navbar-button{
     color : white;
-    background-color:#3778c2;
    padding-right:60px;
    text-align: center;
    font-size: xx-large;
