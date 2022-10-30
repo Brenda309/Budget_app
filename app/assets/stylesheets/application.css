@@ -1,10 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=proxima-nova:thin,extra-light,light,bold,100,200,300,400,500,600,700,800');
 
-
 hr {
   width: 90%;
-  color:#434b54;
+  color: #434b54;
   height: 0.5rem;
 }
 
@@ -35,7 +34,8 @@ form {
   gap: 10px;
 }
 
-a, button {
+a,
+button {
   text-decoration: none;
   cursor: pointer;
 }
@@ -92,7 +92,7 @@ img {
 .foot-note {
   display: flex;
   justify-content: center;
-  color:  #434b54;
+  color: #434b54;
   font-size: xx-small;
   margin-top: 1rem;
 }
@@ -161,7 +161,7 @@ img {
   text-align: center;
   width: 92%;
   background-color: #fff;
-  color:  #434b54;
+  color: #434b54;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -171,11 +171,10 @@ img {
   font-weight: 300;
 }
 
-
 .log-in-2 {
   text-align: center;
   width: 90%;
-  background-color:  #434b54;
+  background-color: #434b54;
   color: white;
   border: none;
   border-radius: 5px;
@@ -202,7 +201,7 @@ img {
 }
 
 .forgot-link {
-  font-family:proxima-nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: 300;
   padding: 10px;
   margin: 20px 10px;
@@ -219,20 +218,19 @@ img {
 
 .group-wrap {
   display: flex;
-  background-color: white;
   border: 1px solid #f1f1f1;
   padding: 0.5rem;
   align-items: center;
   justify-content: space-between;
-  background-color: transparentize(#3778c2, 0.9);
+  background-color: #3778c2;
   border-radius: 10px;
 }
-  .group-wrap :hover {
-    background-color: transparentize(#5fb523 0.9);
-    cursor: pointer;
-    scale: 1.02;
-  }
 
+.group-wrap :hover {
+  background-color: #5fb523;
+  cursor: pointer;
+  scale: 1.02;
+}
 
 .size {
   font-size: 1.5rem;
@@ -266,11 +264,11 @@ img {
 .red {
   font-weight: 300;
 }
-  .red :hover {
-    background-color: #f00;
-    cursor: pointer;
-  }
 
+.red :hover {
+  background-color: #f00;
+  cursor: pointer;
+}
 
 .edit {
   font-weight: 300;
@@ -300,12 +298,12 @@ img {
   width: 100%;
   gap: 1rem;
 }
- .card-list a {
-    text-decoration: none;
-    color:#434b54;
-    font-size: 1rem;
-  }
 
+.card-list a {
+  text-decoration: none;
+  color: #434b54;
+  font-size: 1rem;
+}
 
 .settlement-card {
   display: flex;
@@ -314,16 +312,14 @@ img {
   margin: 0 auto;
   width: 90%;
   padding: 1.25rem 1rem;
-  background-color: transparentize(#3778c2 0.9);
+  background-color: #3778c2;
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
-.settlement-car  :hover {
-    background-color: transparentize(#5fb523, 0.9);
-    cursor: pointer;
-  }
-
+.settlement-car :hover {
+  background-color: #5fb523;
+}
 
 .select_icon {
   display: flex;
@@ -333,7 +329,7 @@ img {
 
 .select_icon_label {
   font-size: 1.2rem;
-  color: #434b54;;
+  color: #434b54;
   margin: 1rem 1rem 2rem 0.7rem;
 }
 
@@ -347,26 +343,25 @@ img {
   align-items: center;
   height: 100vh;
   width: 100%;
-  font-family:proxima-nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   background-color: #3778c2;
 }
- #myLinks li {
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
-    width: 100%;
-    border-color: #3778c2;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 10px;
-    font-size: 1.2em;
-    text-decoration: none;
-    font-weight: 300;
-    margin-bottom: 20px;
-  }
 
+#myLinks li {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  border-color: #3778c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
 
 .groups-container {
   display: flex;
