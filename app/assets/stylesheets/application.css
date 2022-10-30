@@ -1,37 +1,11 @@
-@import 'font-awesome';
 
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=proxima-nova:thin,extra-light,light,bold,100,200,300,400,500,600,700,800');
 
-.home {
-  display: flex;
-  justify-content: space-around;
-  background-color: #3778c2;
-}
 
-.nav_bar {
-  display: flex;
-  font-size: 20px;
-  margin: 10px;
-  list-style: none;
-}
-
-.navbar-button {
-  text-decoration: none;
-  color: #f8efef;
-  font-size: 20px;
-  padding: 10px;
-  list-style: none;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-}
-
-.icon {
-  scale: 1.5;
+hr {
+  width: 90%;
+  color:#434b54;
+  height: 0.5rem;
 }
 
 footer {
@@ -39,15 +13,11 @@ footer {
   display: block;
   align-items: center;
   justify-items: center;
-  height: 5rem;
+  height: 3rem;
   right: 0;
   bottom: 1rem;
   left: 0;
   background-color: #5fb523;
-}
-
-.foot-note {
-  text-align: center;
 }
 
 input {
@@ -61,47 +31,115 @@ input {
 form {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  width: 100%;
+  gap: 10px;
 }
 
-.title {
-  font-size: xx-large;
+a, button {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.quote {
-  background-color: rgb(109, 133, 177);
-  text-align: center;
+img {
+  width: 100px;
+  height: 100px;
 }
 
-.field {
+.icon {
+  scale: 1.5;
+}
+
+.signup-header {
+  display: flex;
+  justify-content: center;
+  color: rgb(67, 75, 84);
+  border-bottom: 1px solid rgb(241, 241, 241);
+  padding: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #3778c2;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.iconify {
+  color: #fff;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+}
+
+.welcome-text {
+  display: flex;
+  color: #434b54;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.welcome-icon {
+  width: 98%;
+  height: 98%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.foot-note {
+  display: flex;
+  justify-content: center;
+  color:  #434b54;
+  font-size: xx-small;
+  margin-top: 1rem;
+}
+
+.log-buttons {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 400px;
-  margin-bottom: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40%;
 }
 
-.field__input {
-  padding: 0.5rem;
-  font-size: 1.2rem;
-  border: none;
-  border-bottom: #000 solid 1px;
-  border-radius: 4px;
-  outline: none;
+.links-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40%;
 }
 
-button.navbar-button {
-  color: white;
-  background-color: rgb(47, 79, 185);
-}
-
-a.navbar-button {
-  color: white;
-  padding-right: 60px;
+.log-in-3 {
   text-align: center;
-  font-size: xx-large;
+  width: 92%;
+  background-color: #3778c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 100px 10px 100px;
+  margin: 0 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.sign-up-3 {
+  text-align: center;
+  width: 92%;
+  background-color: #fff;
+  color: #434b54;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 100px 10px 100px;
+  margin: 0 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: 300;
 }
 
 .log-in {
@@ -123,7 +161,7 @@ a.navbar-button {
   text-align: center;
   width: 92%;
   background-color: #fff;
-  color: #434b54;
+  color:  #434b54;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -133,10 +171,11 @@ a.navbar-button {
   font-weight: 300;
 }
 
+
 .log-in-2 {
   text-align: center;
   width: 90%;
-  background-color: #3778c2;
+  background-color:  #434b54;
   color: white;
   border: none;
   border-radius: 5px;
@@ -163,7 +202,7 @@ a.navbar-button {
 }
 
 .forgot-link {
-  font-family: proxima-nova, sans-serif;
+  font-family:proxima-nova, sans-serif;
   font-weight: 300;
   padding: 10px;
   margin: 20px 10px;
@@ -173,6 +212,11 @@ a.navbar-button {
   margin-left: 5px;
 }
 
+.field {
+  margin: 5px 10px;
+  padding: 5px;
+}
+
 .group-wrap {
   display: flex;
   background-color: white;
@@ -180,8 +224,15 @@ a.navbar-button {
   padding: 0.5rem;
   align-items: center;
   justify-content: space-between;
+  background-color: transparentize(#3778c2, 0.9);
   border-radius: 10px;
 }
+  .group-wrap :hover {
+    background-color: transparentize(#5fb523 0.9);
+    cursor: pointer;
+    scale: 1.02;
+  }
+
 
 .size {
   font-size: 1.5rem;
@@ -214,16 +265,19 @@ a.navbar-button {
 
 .red {
   font-weight: 300;
-  background-color: #f00;
-  cursor: pointer;
 }
+  .red :hover {
+    background-color: #f00;
+    cursor: pointer;
+  }
+
 
 .edit {
   font-weight: 300;
   font-size: 1.2em;
   padding: 10px;
   margin: 10px 15px;
-  background-color: rgb(47, 79, 185);
+  background-color: #3778c2;
   color: #fff;
   border-radius: 5px;
   width: 90%;
@@ -246,12 +300,12 @@ a.navbar-button {
   width: 100%;
   gap: 1rem;
 }
+ .card-list a {
+    text-decoration: none;
+    color:#434b54;
+    font-size: 1rem;
+  }
 
-a .card-list {
-  text-decoration: none;
-  color: #434b54;
-  font-size: 1rem;
-}
 
 .settlement-card {
   display: flex;
@@ -260,10 +314,16 @@ a .card-list {
   margin: 0 auto;
   width: 90%;
   padding: 1.25rem 1rem;
-  background-color: #3778c2;
+  background-color: transparentize(#3778c2 0.9);
   border-radius: 0.2rem;
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
+
+.settlement-car  :hover {
+    background-color: transparentize(#5fb523, 0.9);
+    cursor: pointer;
+  }
+
 
 .select_icon {
   display: flex;
@@ -273,7 +333,7 @@ a .card-list {
 
 .select_icon_label {
   font-size: 1.2rem;
-  color: #434b54;
+  color: #434b54;;
   margin: 1rem 1rem 2rem 0.7rem;
 }
 
@@ -287,24 +347,26 @@ a .card-list {
   align-items: center;
   height: 100vh;
   width: 100%;
-  font-family: proxima-nova, sans-serif;
+  font-family:proxima-nova, sans-serif;
+  background-color: #3778c2;
 }
+ #myLinks li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    border-color: #3778c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
 
-li {
-  list-style-type: none;
-  text-align: center;
-  width: 100%;
-  border-color: #3778c2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px 10px;
-  font-size: 1.2em;
-  text-decoration: none;
-  font-weight: 300;
-  margin-bottom: 20px;
-}
 
 .groups-container {
   display: flex;
