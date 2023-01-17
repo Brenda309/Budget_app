@@ -29,16 +29,16 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Prerequisites
-Ruby 3.1.2 or newer
-Rails 7.0.4 or newer
-Git
-NPM
-PostgreSQL
-Modern web browser
+- Ruby 3.1.2 or newer
+- Rails 7.0.4 or newer
+- Git
+- NPM or Yarn
+- PostgreSQL
+- Modern web browser
 
 ### Setup
-  $ git clone https://github.com/Brenda309/Budget_app.git
-  $ cd recipe_app/
+     $ git clone https://github.com/Brenda309/Budget_app.git
+     $ cd recipe_app/
 ### Install
 
      bundle install
