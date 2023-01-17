@@ -15,17 +15,14 @@
 - CanCanCan
 - Bullet
 
-## Live Demo (if available)
+## Live Demo 
+[Live Demo Video](https://www.loom.com/share/167c87d2612f4a18a40e038caceaca5b)
 
 [Live Demo Link](https://budget-app-managing.herokuapp.com/)
 
 ## run test
 
-rspec
-
-## Live Demo (if available)
-
-[Video]https://www.loom.com/share/167c87d2612f4a18a40e038caceaca5b)
+     rspec
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
